@@ -329,4 +329,14 @@
           margin: 10px 1000px 0px 800px;
           gap: 10px;
       }
-      
+      .hide{
+        display: none;
+      }
+      .secondary-section{
+        display: flex;
+      }
+      @media screen and (max-width: 576Px) {
+        .secondary-section{
+            flex-direction: column;
+        }
+      }
